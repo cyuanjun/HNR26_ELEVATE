@@ -6,7 +6,7 @@ The system allows human players to compete against an AI that dynamically adjust
 
 We adopted an elevator-themed setting inspired by a teammate’s original idea: designing a bidding system for lift usage. Living on the 38th floor, he often experiences overcrowded lifts in the mornings, motivating a playful yet realistic application of competitive resource allocation.
 
-------------------------------------------------------------------------
+---
 
 ## 📊 Project Overview
 
@@ -36,7 +36,7 @@ This project demonstrates how LLMs can:
 
 All within a live, interactive web environment.
 
-------------------------------------------------------------------------
+---
 
 ## ✨ Key Features
 
@@ -48,7 +48,7 @@ All within a live, interactive web environment.
 -   🔄 Safe game restarts and state management
 -   📊 Automatic post-game performance reports
 
-------------------------------------------------------------------------
+---
 
 ## 🧠 What This Project Explores
 
@@ -59,7 +59,7 @@ All within a live, interactive web environment.
 -   Human--AI interaction
 -   Real-time AI systems
 
-------------------------------------------------------------------------
+---
 
 ## 🧰 Tech Stack
 
@@ -75,8 +75,7 @@ All within a live, interactive web environment.
     - dotenv
     - readline-sync
 
-------------------------------------------------------------------------
-
+---
 ## 📁 Project Structure
 
     AI-Auction-Game/
@@ -95,7 +94,7 @@ All within a live, interactive web environment.
     ├── .env                    # OpenAI API key (NOT COMMITTED)
     └── README.md               # Documentation
 
-------------------------------------------------------------------------
+---
 
 ## ⚠️ Disclaimer
 
@@ -105,7 +104,7 @@ It is not designed for real-world financial use and does not represent investmen
 
 All gameplay mechanics are simulated.
 
-------------------------------------------------------------------------
+---
 
 ## ▶️ How to Use
 
@@ -138,7 +137,7 @@ npm start
 
     http://localhost:3000
 
-------------------------------------------------------------------------
+---
 
 ## 🎮 Gameplay
 
@@ -157,7 +156,7 @@ npm start
     - Other player gets a point as long as he can pay the maintenance fee of that round.
 8. An AI-powered performance report will then be generated based on the player's performance.
 
-------------------------------------------------------------------------
+---
 
 ## 📊 Post-Game Report
 
@@ -171,7 +170,7 @@ After the game ends, the system generates an AI-powered performance report inclu
 
 These insights are produced using a separate LLM-based analysis pipeline and are designed to help players reflect on and improve their long-term decision-making strategies.
 
-------------------------------------------------------------------------
+---
 
 
 ## 🔌 API
@@ -183,7 +182,7 @@ These insights are produced using a separate LLM-based analysis pipeline and are
   POST     /api/start     Start new game
   POST     /api/restart   Restart game
 
-------------------------------------------------------------------------
+---
 
 ## 🔒 Security
 
@@ -191,8 +190,12 @@ These insights are produced using a separate LLM-based analysis pipeline and are
 -   Do not commit `.env`
 -   No personal data stored
 
-------------------------------------------------------------------------
+---
 
 ## 📬 Contact
 
-Open an issue or contact via LinkedIn.
+Open an issue or reach out to me or any of my teammates via LinkedIn [here](https://www.linkedin.com/in/chia-yuan-jun/) and we will try our best to help.
+- Chia Yuan Jun (me) [LinkedIn](https://www.linkedin.com/in/chia-yuan-jun/)
+- Lee Jinseo, Jason [LinkedIn](https://www.linkedin.com/in/jinseo-lee-58b255341/)
+- Moe Pye Sone [LinkedIn](https://www.linkedin.com/in/moepyesone/)
+- Lee Haeeun, Chloe [LinkedIn](https://www.linkedin.com/in/hae-eun-lee-169baa2b2/)
