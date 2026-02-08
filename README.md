@@ -10,7 +10,7 @@ We adopted an elevator-themed setting inspired by a teammate’s original idea: 
 
 ## 📊 Project Overview
 
-This project was built by my team and me in 24hrs during the **NUS Hack&Roll 2026 Hackathon** to explore how large language models can be integrated into strategic decision-making systems under financial and game-theoretic constraints.
+This project was built by my team in 24hrs during the **NUS Hack&Roll 2026 Hackathon** to explore how large language models can be integrated into strategic decision-making systems under financial and game-theoretic constraints.
 
 Key motivations include:
 
