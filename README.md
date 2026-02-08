@@ -4,7 +4,7 @@ AI Auction Game is a **Node.js-based interactive web application** that simulate
 
 The system allows human players to compete against an AI that dynamically adjusts its bidding strategy based on game history, capital constraints, and opponent behavior.
 
-We adopted an elevator theme from our teammate's original idea, which was to create a bidding system for lifts, as he lives on the 38th floor and has trouble getting doen as the lifts are always full every morning.
+We adopted an elevator-themed setting inspired by a teammate’s original idea: designing a bidding system for lift usage. Living on the 38th floor, he often experiences overcrowded lifts in the mornings, motivating a playful yet realistic application of competitive resource allocation.
 
 ------------------------------------------------------------------------
 
@@ -178,7 +178,8 @@ After the game ends, the system generates an AI-powered performance report inclu
 - Liquidity management
 - Emotional discipline
 - Strategic adaptability
-- This is produced using a separate LLM analysis pipeline.
+
+These insights are produced using a separate LLM-based analysis pipeline and are designed to help players reflect on and improve their long-term decision-making strategies.
 
 ------------------------------------------------------------------------
 
