@@ -1,6 +1,6 @@
-# 🎯 AI Auction Game with LangGraph & OpenAI
+# 🎯 ELEVATE (AI Auction Game with LangGraph & OpenAI API)
 
-AI Auction Game is a **Node.js-based interactive web application** that simulates a **repeated sealed-bid all-pay auction** with rising maintenance costs, powered by an **LLM-driven adaptive agent** built using **LangGraph and OpenAI**.
+Elevate is an AI Auction Game is a **Node.js-based interactive web application** that simulates a **repeated sealed-bid all-pay auction** with rising maintenance costs, powered by an **LLM-driven adaptive agent** built using **LangGraph and OpenAI API**.
 
 The system allows human players to compete against an AI that dynamically adjusts its bidding strategy based on game history, capital constraints, and opponent behavior.
 
