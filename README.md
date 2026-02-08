@@ -79,6 +79,10 @@ All within a live, interactive web environment.
 ## 📁 Project Structure
 
     AI-Auction-Game/
+    ├── readme_assets/
+    │ ├── start_page.png
+    │ ├── gameplay.png
+    │ └── report.png
     ├── public/
     │ ├── app.js
     │ ├── index.html
@@ -88,9 +92,9 @@ All within a live, interactive web environment.
     │ └── start_img.jpg
     ├── agent_pipeline.mjs      # LLM logic & reasoning graph
     ├── game_core.mjs           # Game engine and rules
-    ├── server.mjs              # HTTP server and API routes
-    ├── package.json            # Dependencies and scripts
     ├── package-lock.json       # Dependency lock file
+    ├── package.json            # Dependencies and scripts
+    ├── server.mjs              # HTTP server and API routes
     ├── .env                    # OpenAI API key (NOT COMMITTED)
     └── README.md               # Documentation
 
@@ -141,20 +145,26 @@ npm start
 
 ## 🎮 Gameplay
 
+![start_page](readme_assets/start_page.png)
 1. Click Start Game.
-2. Enter your bid for each round.
-3. Both player and AI pay their bids (all-pay rule).
-4. Higher bid wins the round (gain 1 point).
-5. Maintenance fees increase over time.
+
+![gameplay](readme_assets/gameplay.png)
+3. Enter your bid for each round.
+
+4. Both player and AI pay their bids (all-pay rule).
+5. Higher bid wins the round (gain 1 point).
+6. Maintenance fees increase over time.
     - $0 for rounds 1 and 2.
     - $5 for rounds 3 and 4.
     - $10 for rounds 5 and 6.
     - ...
-6. Game ends when a player cannot continue.
-7. A walkover will then occur for the remaining player.
+7. Game ends when a player cannot continue.
+8. A walkover will then occur for the remaining player.
     - Assumes bet of 0 from the bankrupt player.
     - Other player gets a point as long as he can pay the maintenance fee of that round.
-8. An AI-powered performance report will then be generated based on the player's performance.
+  
+![report](readme_assets/report.png)
+9. An AI-powered performance report will then be generated based on the player's performance.
 
 ---
 
