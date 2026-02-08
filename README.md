@@ -10,7 +10,7 @@ We adopted an elevator-themed setting inspired by a teammate’s original idea: 
 
 ## 📊 Project Overview
 
-This project was built by my team and I in 24hrs during the **NUS Hack&Roll 2026 Hackathon** to explore how large language models can be integrated into strategic decision-making systems under financial and game-theoretic constraints.
+This project was built by my team and me in 24hrs during the **NUS Hack&Roll 2026 Hackathon** to explore how large language models can be integrated into strategic decision-making systems under financial and game-theoretic constraints.
 
 Key motivations include:
 
@@ -35,6 +35,20 @@ This project demonstrates how LLMs can:
 -   Balance risk, liquidity, and scoring objectives.
 
 All within a live, interactive web environment.
+
+------------------------------------------------------------------------
+
+## 📊 Post-Game Report
+
+After the game ends, the system generates an AI-powered performance report including:
+
+- Risk posture
+- Capital efficiency
+- Liquidity management
+- Emotional discipline
+- Strategic adaptability
+
+These insights are produced using a separate LLM-based analysis pipeline and are designed to help players reflect on and improve their long-term decision-making strategies.
 
 ------------------------------------------------------------------------
 
@@ -155,6 +169,7 @@ npm start
 7. A walkover will then occur for the remaining player.
     - Assumes bet of 0 from the bankrupt player.
     - Other player gets a point as long as he can pay the maintenance fee of that round.
+8. An AI-powered performance report will then be generated based on the player's performance.
 
 ------------------------------------------------------------------------
 
@@ -166,20 +181,6 @@ npm start
   POST     /api/bid       Submit player bid
   POST     /api/start     Start new game
   POST     /api/restart   Restart game
-
-------------------------------------------------------------------------
-
-## 📊 Post-Game Report
-
-After the game ends, the system generates an AI-powered performance report including:
-
-- Risk posture
-- Capital efficiency
-- Liquidity management
-- Emotional discipline
-- Strategic adaptability
-
-These insights are produced using a separate LLM-based analysis pipeline and are designed to help players reflect on and improve their long-term decision-making strategies.
 
 ------------------------------------------------------------------------
 
