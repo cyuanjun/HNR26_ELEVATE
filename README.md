@@ -194,7 +194,7 @@ These insights are produced using a separate LLM-based analysis pipeline and are
 
 ## 📬 Contact
 
-Open an issue or reach out to me or any of my teammates via LinkedIn [here](https://www.linkedin.com/in/chia-yuan-jun/) and we will try our best to help.
+Open an issue or reach out to me or any of my teammates via LinkedIn below and we will try our best to help.
 - Chia Yuan Jun (me) [LinkedIn](https://www.linkedin.com/in/chia-yuan-jun/)
 - Lee Jinseo, Jason [LinkedIn](https://www.linkedin.com/in/jinseo-lee-58b255341/)
 - Moe Pye Sone [LinkedIn](https://www.linkedin.com/in/moepyesone/)
