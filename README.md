@@ -149,22 +149,24 @@ npm start
 1. Click Start Game.
 
 ![gameplay](readme_assets/gameplay.png)
-3. Enter your bid for each round.
 
-4. Both player and AI pay their bids (all-pay rule).
-5. Higher bid wins the round (gain 1 point).
-6. Maintenance fees increase over time.
+2. Enter your bid for each round.
+
+3. Both player and AI pay their bids (all-pay rule).
+4. Higher bid wins the round (gain 1 point).
+5. Maintenance fees increase over time.
     - $0 for rounds 1 and 2.
     - $5 for rounds 3 and 4.
     - $10 for rounds 5 and 6.
     - ...
-7. Game ends when a player cannot continue.
-8. A walkover will then occur for the remaining player.
+6. Game ends when a player cannot continue.
+7. A walkover will then occur for the remaining player.
     - Assumes bet of 0 from the bankrupt player.
     - Other player gets a point as long as he can pay the maintenance fee of that round.
   
 ![report](readme_assets/report.png)
-9. An AI-powered performance report will then be generated based on the player's performance.
+
+8. An AI-powered performance report will then be generated based on the player's performance.
 
 ---
 
