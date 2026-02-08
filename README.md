@@ -38,20 +38,6 @@ All within a live, interactive web environment.
 
 ------------------------------------------------------------------------
 
-## 📊 Post-Game Report
-
-After the game ends, the system generates an AI-powered performance report including:
-
-- Risk posture
-- Capital efficiency
-- Liquidity management
-- Emotional discipline
-- Strategic adaptability
-
-These insights are produced using a separate LLM-based analysis pipeline and are designed to help players reflect on and improve their long-term decision-making strategies.
-
-------------------------------------------------------------------------
-
 ## ✨ Key Features
 
 -   🤖 LLM-powered adaptive bidding agent (LangGraph + OpenAI)
@@ -172,6 +158,21 @@ npm start
 8. An AI-powered performance report will then be generated based on the player's performance.
 
 ------------------------------------------------------------------------
+
+## 📊 Post-Game Report
+
+After the game ends, the system generates an AI-powered performance report including:
+
+- Risk posture
+- Capital efficiency
+- Liquidity management
+- Emotional discipline
+- Strategic adaptability
+
+These insights are produced using a separate LLM-based analysis pipeline and are designed to help players reflect on and improve their long-term decision-making strategies.
+
+------------------------------------------------------------------------
+
 
 ## 🔌 API
 
