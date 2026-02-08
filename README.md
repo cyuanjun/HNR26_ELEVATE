@@ -79,10 +79,6 @@ All within a live, interactive web environment.
 ## 📁 Project Structure
 
     AI-Auction-Game/
-    ├── readme_assets/
-    │ ├── start_page.png
-    │ ├── gameplay.png
-    │ └── report.png
     ├── public/
     │ ├── app.js
     │ ├── index.html
@@ -90,6 +86,10 @@ All within a live, interactive web environment.
     │ ├── sprite.png
     │ ├── background.jpg
     │ └── start_img.jpg
+    ├── readme_assets/
+    │ ├── gameplay.png
+    │ ├── report.png
+    │ └── start_page.png
     ├── agent_pipeline.mjs      # LLM logic & reasoning graph
     ├── game_core.mjs           # Game engine and rules
     ├── package-lock.json       # Dependency lock file
